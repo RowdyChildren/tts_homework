@@ -1,8 +1,25 @@
 #Homework Class 2
+def integer?(str)
+  /\A[+-]?\d+\z/ === str
+end
 puts "Enter an Interger"
-ia = gets.chomp.to_i
+ia = gets.chomp
+#check if Interger A is actually an interger
+while integer?(ia) == false
+	puts "Please choose an interger, not a float"
+	ia = gets.chomp
+	
+end
+ia = ia.to_i
 puts "Enter a second Interger"
-ib = gets.chomp.to_i
+ib = gets.chomp
+#check if Interger B is actually an interger
+while integer?(ib) ==false
+	puts "Please choose an interger, not a float"
+	
+	ib = gets.chomp
+end
+ib = ib.to_i
 while ib == 0
 	puts "You cannot devide by zero, if you do life as we know it will end, please try again:"
 	ib = gets.chomp.to_i
