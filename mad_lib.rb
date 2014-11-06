@@ -1,3 +1,5 @@
+puts "Code Licensed Under GNU GPL 3.0, Mad Lib (c) Copyright 2014 mikesimon/elibs.com"
+puts "Find this code on GitHub: http://git.io/AfRziw "
 puts "To Start Your Mad Lib Press Enter...."
 gets
 puts "The Cable Guy Horror Story (Press Enter to Continue)"
