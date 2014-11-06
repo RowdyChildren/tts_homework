@@ -1,4 +1,5 @@
 #Homework Class 2
+#the following method was taken from stackoverflow.com
 def integer?(str)
   /\A[+-]?\d+\z/ === str
 end
