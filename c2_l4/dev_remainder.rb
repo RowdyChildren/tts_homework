@@ -3,8 +3,7 @@
 def integer?(str)
   /\A[+-]?\d+\z/ === str
 end
-
-
+#Get User Input
 puts "Enter an Interger"
 ia = gets.chomp
 
@@ -15,7 +14,7 @@ while integer?(ia) == false
 end
 
 ia = ia.to_i
-
+#More input
 #Second int
 puts "Enter a second Interger"
 ib = gets.chomp
