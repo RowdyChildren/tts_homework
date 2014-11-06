@@ -5,6 +5,6 @@ def convert_pounds_to_kilos(number)
 
 end
 puts "gimmie a value in pounds"
-weight = puts
+weight = gets.chomp.to_i
 mass = convert_pounds_to_kilos(weight)
-puts "Your value has a mass of #{mass} kg"
+puts "Your value has a mass of #{mass.to_s} kg"

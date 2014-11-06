@@ -1,3 +1,4 @@
+puts "Homework for Class 2"
 puts "Code Licensed Under GNU GPL 3.0, Mad Lib (c) Copyright 2014 mikesimon/elibs.com"
 puts "Find this code on GitHub: http://git.io/AfRziw "
 puts "To Start Your Mad Lib Press Enter...."
@@ -45,7 +46,7 @@ noticed her looking at my #{object1}. I was determined to get this done though, 
 I grabbed the nearest #{animal1} and went right back inside. He followed me in, and\n
 this lady was in nothing but her #{articleOfClothing1} blasting #{singer1}. \"Ok I\'m sorry, you\'re\n
 #{adjective1} lady. Goodbye.\"\n"
-puts "Based on \"The Cable Guy Horror Story\" by mikesimon from elibs.com <http://www.elibs.com/stories/playElibs/cable-guy-horror-story>"
+puts "\n\nBased on \"The Cable Guy Horror Story\" by mikesimon from elibs.com <http://www.elibs.com/stories/playElibs/cable-guy-horror-story>"
 
 
 
