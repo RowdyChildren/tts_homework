@@ -8,7 +8,7 @@ else
 	#good job! You passed an arg to the program
 string = ARGV[0].chomp
 #Lets tell the user what the string is
-puts "Your string is #{string.length} Chars long"
+puts "Your string, #{string}, is #{string.length} Chars long"
 #terminate gracefully
 exit
 end
