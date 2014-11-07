@@ -8,7 +8,7 @@ def convert_pounds_to_kilos(number)
 
 end
 #Tell User What to do
-puts "gimmie a value in pounds, decimals will be removed"
+puts "gimmie a value in pounds, decimals will be Truncated"
 #Get User Input and covert to interger
 weight = gets.chomp.to_i
 #call function to do conversion
