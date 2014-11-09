@@ -1,4 +1,4 @@
-def ClearAddInstructions()()
+def ClearAddInstructions()
 	system "clear" or system "cls"
 	puts "Fill out each field and press enter, at the end you will see the completed Mad Lib"
 	return
