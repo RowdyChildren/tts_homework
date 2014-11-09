@@ -1,53 +1,72 @@
+def ClearAddInstructions()()
+	system "clear" or system "cls"
+	puts "Fill out each field and press enter, at the end you will see the completed Mad Lib"
+	return
+end
+
 
 puts "Homework for Class 2"
 puts "Code Licensed Under GNU GPL 3.0, Mad Lib (c) Copyright 2014 mikesimon/elibs.com"
 puts "Find this code on GitHub: http://git.io/AfRziw "
 puts "To Start Your Mad Lib Press Enter...."
 gets
+system "clear" or system "cls"
 puts "The Cable Guy Horror Story (Press Enter to Continue)"
 gets
-puts "Fill out each field and press enter, at the end you will see the completed Mad Lib"
+ClearAddInstructions()
 puts "choose a large number"
 largeNumber1 = gets.chomp
+ClearAddInstructions()
 puts "choose a plural noun"
 pluralNoun1 = gets.chomp
+ClearAddInstructions()
 puts "choose a number"
 number1 = gets.chomp
+ClearAddInstructions()
 puts "choose a liquid"
 liquid1 = gets.chomp
+ClearAddInstructions()
 puts "choose a food"
 food1 = gets.chomp
+ClearAddInstructions()
 puts "choose a body part"
 bodyPart1 = gets.chomp
+ClearAddInstructions()
 puts "choose a celeberty"
 celeberty1 = gets.chomp
+ClearAddInstructions()
 puts "choose someone in class"
 somebodyInClass1 = gets.chomp
-puts " \choose an object"
 object1 = gets.chomp
+system "clear" or system "cls"
 puts "Only a few more left (Press Enter}"
 gets
+ClearAddInstructions()
 puts "choose an animal"
 animal1 = gets.chomp
+ClearAddInstructions()
 puts "choose an article of clothing"
 articleOfClothing1 = gets.chomp
+ClearAddInstructions()
 puts "choose an article of singer"
 singer1 = gets.chomp
+ClearAddInstructions()
 puts "choose an article of adjective"
 adjective1 = gets.chomp
+system "clear" or system "cls"
 puts "Are You Ready? (Y/N)"
 value = gets.chomp.downcase
 
 until value == 'y' or value == 'n'
-	puts "That value doesn't comply, please try again"
+	puts "That value doesn't comply, please try again\n\n"
 	puts "Are You Ready? (Y/N)"
     value = gets.chomp.downcase
 end
 
 if value == 'y' 
-	puts "Here we Go!"
+	puts "Here we Go!\n\n"
 else
-	puts "I really could care less"
+	puts "I really could care less\n\n"
 
 end
 
