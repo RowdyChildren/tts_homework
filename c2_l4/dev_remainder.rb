@@ -21,7 +21,7 @@ ib = gets.chomp
 
 #check if Interger B is actually an interger
 while integer?(ib) ==false
-	puts "Please choose an interger, not a float"
+	puts "Please choose an interger, not a float"	
 	
 	ib = gets.chomp
 end
